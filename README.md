@@ -69,7 +69,7 @@ INVOICE-AI-EXTRACTOR/
 ### 1. Clone and create a virtual environment
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ShahJahanBrohii/invoice-ai-extractor.git
 cd invoice-ai-extractor
 python -m venv .venv
 ```
@@ -203,3 +203,8 @@ curl -X POST "http://127.0.0.1:8000/extract" \
 - **Google Gemini** (`gemini-2.5-flash`) — structured data extraction
 - **Pydantic** — schema validation
 - **PyMuPDF (fitz)** — PDF-to-image conversion
+
+
+Shah Jahan
++92 304 3873251
+shahjahan12098@gmail.com
