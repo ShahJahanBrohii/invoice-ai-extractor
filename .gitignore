@@ -1,0 +1,40 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Logs
+logs/
+*.log
+
+# Generated data (OCR images, extracted JSON, uploaded PDFs)
+data/images/*
+data/input/*
+data/output/*
+!data/images/.gitkeep
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# EasyOCR downloaded models
+.EasyOCR/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
